@@ -34,8 +34,7 @@ let handleChange = async (changeEvent) => {
         updatedRealm.write(() => {
           addedAccount.threads.push({
             id: 'l4l46l5',
-            someString: 'first thread',
-            someNum: 25
+            someString: 'first thread'
           })
         })
       } catch (error) {
