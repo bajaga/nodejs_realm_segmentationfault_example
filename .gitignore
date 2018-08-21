@@ -1,0 +1,13 @@
+# Logs
+Logs
+*.logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+realm-object-server/
+
+# Optional npm cache directory
+.npm
