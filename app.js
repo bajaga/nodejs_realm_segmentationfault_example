@@ -1,8 +1,8 @@
 const Realm   = require('realm')
 
 const USERNAME = "admin-user"  // user with administrator privileges
-const PASSWORD = "some pass"
-const SERVER = "realmserver"
+const PASSWORD = "admin-user-pass"
+const SERVER = "your realm cloud instance"
 const NOTIFIER_PATH = '/test-user-realm'
 
 let handleChange = async (changeEvent) => {

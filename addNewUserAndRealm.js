@@ -3,8 +3,8 @@ const path    = require('path')
 const glob    = require('glob')
 
 const USERNAME = "test-user-realm-owner"
-const PASSWORD = "testuser-shitme"
-const SERVER = "realmserver"
+const PASSWORD = "reagular-user-pass"
+const SERVER = "your realm cloud instance"
 
 const allSchemas = []
 const normalizedPath = path.join(__dirname, "/models/**/*.js")
